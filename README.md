@@ -24,11 +24,14 @@ An interactive web app built with Streamlit that recommends movies based on genr
 
 ## 📁 Project Structure
 
-├── app.py # Main Streamlit app
-├── dataset-movie/ # Movie dataset
-├── system-logo/ # Logo assets
-├── requirements.txt # Python dependencies
-└── README.md # Project documentation
+```
+Movie-Recommendation-System-Streamlit/
+├── app.py               # Main Streamlit app
+├── dataset-movie/       # Movie dataset
+├── system-logo/         # Logo assets
+├── requirements.txt     # Python dependencies
+└── README.md            # Project documentation
+```
 
 ## 🧠 How It Works
 
