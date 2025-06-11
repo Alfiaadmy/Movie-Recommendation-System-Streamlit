@@ -13,7 +13,7 @@ from io import BytesIO
 
 
 # Load dataset
-df = pd.read_csv(r'D:\Downloads\Film_300.csv')
+df = pd.read_csv('dataset-movie.csv')
 df['release_date'] = pd.to_datetime(df['release_date'], errors='coerce')
 df['normalized_title'] = df['title'].str.strip().str.lower()
 
@@ -77,7 +77,7 @@ def recommend(movie_title, num_recommendations=10,
 
 # Streamlit UI
 # Baca gambar dari file lokal
-img_path = r'D:\Downloads\image-removebg-preview-removebg-preview.png'
+img_path = 'system-logo.jpg'
 image = Image.open(img_path)
 
 # Convert gambar ke base64 agar bisa dimasukkan ke HTML img tag
